@@ -23,8 +23,8 @@
     background-color: black !important;
 }
 .navbar-brand img{
-    height:100px;
-    padding-left: 30px;
+    height:50px;
+    padding-left: 10px;
     margin: auto;
 
 
@@ -63,6 +63,16 @@
 .carousel-inner{
     max-height: 38rem!important;
 }
+/* Next and prev size */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size:100px;
+  color: red;
+}
+
+
+
+
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active{
@@ -140,6 +150,7 @@ bg-primary:focus
 }
 .about-content{
     padding-top: 20px;
+    font-size: 25px;
 }
 
 .skills-bar p{
